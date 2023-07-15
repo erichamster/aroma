@@ -1,0 +1,12 @@
+Products (id, name, price, imagepath, thumnailPath, categoryId, brandId, availability, summary, description)
+
+ProductColors (id, productId, colorId, imagepath)
+
+Specifications (id, name, summary)
+
+ProductSecifications (id, productId, specificationId, description)
+
+Users(id, username, password, email, phone, fullname, avatarPath, isAdmin)
+
+Comments(id, message, userId, productId, parentCommentId, createAt)
+
